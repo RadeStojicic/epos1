@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixi Barber Shop | Services</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/967b01b17e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./img/icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <nav>
+          <div class="first">
+            <a href="./index.html"
+              ><img class="logo" alt="my logo" src="../img/logoBarber.png""
+              /></a
+            >
+          </div>
+          <div class="second">
+            <ul class="navLinks">
+              <li><a class="navLink" href="./index.html">Home</a></li>
+              <li>
+                <a class="navLink active" href="./services.html">Services</a>
+              </li>
+              <li><a class="navLink" href="./about.html">About Us</a></li>
+              <li><a class="navLink" href="./gallery.html">Gallery</a></li>
+              <a href="./contact.html"> <button class="btn">Contact</button></a>
+            </ul>
+            <div class="responsiveIcons">
+              <i onclick="showContent()" class="fas fa-bars"></i>
+              <i onclick="closeContent()" class="fas fa-times"></i>
+            </div>
+          </div>
+        </nav>
+        <div style="display: none" class="responsive_nav">
+          <ul class="responsive_links">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./services.html"><li>Services</li></a>
+            <a href="./about.html"><li>About Us</li></a>
+            <a href="./gallery.html"><li>Gallery</li></a>
+            <a href="./contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
+      <main class="content">
+        <div>
+          <h1 class="title">Services</h1>
+        </div>
+      </main>
+    </header>
+    <div class="servicesPageContainer">
+      <div class="servicesPageContent">
+        <h1>Services & Prices</h1>
+        <a href="./contact.html"
+          ><button class="bookNowServices">Book Now</button></a
+        >
+        <div>
+          <div>
+            <div class="priceRow">
+              <p>Men's Haircut</p>
+              <p class="price">$15.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Senior Haircut</p>
+              <p class="price">$12.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Boys Haircut</p>
+              <p class="price">$12.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Beard Trim & Shape</p>
+              <p class="price">$20.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Restyle Haircut / Skin Fade</p>
+              <p class="price">$22.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Cut Throat Shave</p>
+              <p class="price">$16.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Haircut & Beard Combo</p>
+              <p class="price">$24.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Haircut & Cut Throat Shave</p>
+              <p class="price">$22.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Beard Trim with Razor</p>
+              <p class="price">$9.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Fade + Hot Towel</p>
+              <p class="price">$18.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Shampoo</p>
+              <p class="price">$6.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Color</p>
+              <p class="price">$20.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Face Massage</p>
+              <p class="price">$15.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Head Massage</p>
+              <p class="price">$15.00</p>
+            </div>
+            <div class="priceRow">
+              <p>Full Bald Shave</p>
+              <p class="price">$20.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_content">
+          <ul>
+            <h1>Shortcuts</h1>
+            <a href="./index.html"> <li>Home</li></a>
+            <a href="./services.html"> <li>Services</li></a>
+            <a href="./about.html"><li>About Us</li></a>
+            <a href="./gallery.html"> <li>Gallery</li></a>
+            <a href="./contact.html"> <li>Contact</li></a>
+          </ul>
+          <ul>
+            <h1>Services</h1>
+            <li>Men's Haircut</li>
+            <li>Beard Trim & Shape</li>
+            <li>Beard Trim with Razor</li>
+            <li>Fade + Hot Towel</li>
+            <li>
+              <a style="color: rgb(189, 189, 189)" href="./services.html"
+                >See More</a
+              >
+            </li>
+          </ul>
+          <ul class="contact_content_footer">
+            <h1>Contact</h1>
+            <a href="mailto:pixibarbershop@gmail.com" target="_blank">
+              <i class="fas fa-envelope">
+                <span style="margin-left: 5px"
+                  >pixibarbershop@gmail.com</span
+                ></i
+              >
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram">
+                <span style="margin-left: 5px">pixibarbershop</span>
+              </i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-square-facebook">
+                <span style="margin-left: 5px">Pixi Barber</span>
+              </i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fa fa-linkedin">
+                <span style="margin-left: 5px">Pixi Barbershop</span>
+              </i>
+            </a>
+          </ul>
+        </div>
+        <div class="copyright">
+          <i class="fas fa-copyright"
+            ><span style="margin-left: 5px"
+              >2022 Pixi Barbershop, All Rights Reserved</span
+            ></i
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/044a0dfeee.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

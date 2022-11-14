@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixi Barber Shop | Contact</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/967b01b17e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./img/icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <nav>
+          <div class="first">
+            <a href="./index.html"
+              ><img class="logo" alt="my logo" src="../img/logoBarber.png""
+              /></a
+            >
+          </div>
+          <div class="second">
+            <ul class="navLinks">
+              <li><a class="navLink" href="./index.html">Home</a></li>
+              <li>
+                <a class="navLink" href="./services.html">Services</a>
+              </li>
+              <li>
+                <a class="navLink" href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a class="navLink" href="./gallery.html">Gallery</a>
+              </li>
+              <a href="./contact.html"> <button class="btn">Contact</button></a>
+            </ul>
+            <div class="responsiveIcons">
+              <i onclick="showContent()" class="fas fa-bars"></i>
+              <i onclick="closeContent()" class="fas fa-times"></i>
+            </div>
+          </div>
+        </nav>
+        <div style="display: none" class="responsive_nav">
+          <ul class="responsive_links">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./services.html"><li>Services</li></a>
+            <a href="./about.html"><li>About Us</li></a>
+            <a href="./gallery.html"><li>Gallery</li></a>
+            <a href="./contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
+      <main class="content">
+        <div>
+          <h1 class="title">Contact</h1>
+        </div>
+      </main>
+    </header>
+    <div class="contactPageContainer">
+      <div class="contactPageContent">
+        <div class="">
+          <h1>Book Now</h1>
+          <p style="margin-top: 10px; font-style: italic; color: gray">
+            Book an appointment before it's full.
+          </p>
+        </div>
+        <div class="formContactPage">
+          <form class="formaCP" action="">
+            <div class="name_email_ContactPage">
+              <div class="nameContainerCP">
+                <p>Name</p>
+                <input class="inputName" type="text" name="name" required />
+              </div>
+              <div class="mailContainerCP">
+                <p>Email</p>
+                <input class="inputEmail" type="email" name="email" required />
+              </div>
+            </div>
+            <div class="messageCP">
+              <p>Message</p>
+              <textarea
+                class="messageAreaCP msg"
+                name="message"
+                id=""
+              ></textarea>
+            </div>
+            <input
+              class="sendMessageCP sendMsg"
+              type="button"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <iframe
+          class="googleMapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.474991716293!2d20.47385251553436!3d44.771120879098895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7057a24d8c7f%3A0x92380ada664338a8!2sJove%20Ili%C4%87a%20240%2C%20Beograd!5e0!3m2!1sen!2srs!4v1668355643182!5m2!1sen!2srs"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_content">
+          <ul>
+            <h1>Shortcuts</h1>
+            <a href="./index.html"> <li>Home</li></a>
+            <a href="./services.html"> <li>Services</li></a>
+            <a href="./about.html"><li>About Us</li></a>
+            <a href="./gallery.html"> <li>Gallery</li></a>
+            <a href="./contact.html"> <li>Contact</li></a>
+          </ul>
+          <ul>
+            <h1>Services</h1>
+            <li>Men's Haircut</li>
+            <li>Beard Trim & Shape</li>
+            <li>Beard Trim with Razor</li>
+            <li>Fade + Hot Towel</li>
+            <li>
+              <a style="color: rgb(189, 189, 189)" href="./services.html"
+                >See More</a
+              >
+            </li>
+          </ul>
+          <ul class="contact_content_footer">
+            <h1>Contact</h1>
+            <a href="mailto:pixibarbershop@gmail.com" target="_blank">
+              <i class="fas fa-envelope">
+                <span style="margin-left: 5px"
+                  >pixibarbershop@gmail.com</span
+                ></i
+              >
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram">
+                <span style="margin-left: 5px">pixibarbershop</span>
+              </i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-square-facebook">
+                <span style="margin-left: 5px">Pixi Barber</span>
+              </i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fa fa-linkedin">
+                <span style="margin-left: 5px">Pixi Barbershop</span>
+              </i>
+            </a>
+          </ul>
+        </div>
+        <div class="copyright">
+          <i class="fas fa-copyright"
+            ><span style="margin-left: 5px"
+              >2022 Pixi Barbershop, All Rights Reserved</span
+            ></i
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/contact.js"></script>
+  <script
+    src="https://kit.fontawesome.com/044a0dfeee.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
